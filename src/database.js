@@ -1,7 +1,5 @@
 const mongoose = require('mongoose');
 
-/* const URI = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@reclamo.64cj5.gcp.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`;
- */
 const URI = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@clustersanmarcos.mkott.gcp.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`;
 
 (async () => {
